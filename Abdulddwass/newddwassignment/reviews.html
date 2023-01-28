@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="web.css">
+    <title>Reviews</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <a href="" class="navbar-brand">Reveiews</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#ba"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="ba">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <form class="d-flex py-1">
+                                <input type="search" class="form-control" placeholder="search">
+                                <button class="btn btn-outline-success py-1" id="srchbtn" type="submit">search</button>
+                            </form>
+                        </li>
+                        <li class="nav-item dropdown"><a href="" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" data-bs-target="#na">More Items</a>
+                            <ul class="dropdown-menu" id="na">
+                                <li><a href="index.html" class="dropdown-item">Home</a></li>
+                                <li><a href="camping.html" class="dropdown-item">Camping Equipments</a></li>
+                                <li><a href="furniture.html" class="dropdown-item">Furniture</a></li>
+                                <li><a href="packages.html" class="dropdown-item">Packages</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item"><a href="cart.html" class="nav-link">Basket <span class="bi bi-basket"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main id="ma2">
+        <section id="secre1">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-light">
+                            <img class="card-img-top rounded-circle" src="revpics/person1.jpg" alt="Reviewer">
+                            <div class="card-body">
+                                <h4 class="card-title">jenna smith</h4>
+                                <p class="card-text">The website offers a wide variety of camping equipment, from basic essentials to luxury items. Navigation is easy and the prices are very reasonable</p>
+                                <ul>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-light">
+                            <img class="card-img-top rounded-circle" src="revpics/person2.jpg" alt="Reviewer">
+                            <div class="card-body">
+                                <h4 class="card-title">John Doe</h4>
+                                <p class="card-text">I was looking for a specific camping furniture and I found it on this website at a very competitive price. The delivery was on time and the customer service was helpful.</p>
+                                <ul>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star"></i></li>
+                                    <li><i class="bi bi-star"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card bg-dark text-light">
+                            <img class="card-img-top rounded-circle" src="revpics/pexels-david-dm-14664512.jpg" alt="Reviewer">
+                            <div class="card-body">
+                                <h4 class="card-title">scarlet wu</h4>
+                                <p class="card-text">I recently purchased a camping gear package from this website and I am extremely satisfied with the quality of the products. The website is user-friendly and the checkout process was quick and easy.</p>
+                                <ul>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                    <li><i class="bi bi-star-fill"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="secre2">
+            <div class="container p-5">
+                <form action="" class="text-light">
+                    <div class="form-outline">
+                        <label class="form-label" for="textAreaExample2">Message</label>
+                        <textarea class="form-control w-50" id="textAreaExample2" rows="8"></textarea>
+                    </div>
+                    <label for="email">Enter your email</label><br>
+                    <input type="email" id="email"><br><br>
+                    <button type="button" class="btn text-light" id="butto">Submit</button>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="bg-dark py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="text-muted">Address: 123 Main Street, Anytown USA</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-end" id="foot">
+                        <a href="#" class="mr-3"><i class="bi bi-facebook bi-2x"></i></a>
+                        <a href="#" class="mr-3"><i class="bi bi-twitter bi-2x"></i></a>
+                        <a href="#" class="mr-3"><i class="bi bi-instagram bi-2x"></i></a>
+                        <a href="#" class="mr-3"><i class="bi bi-linkedin bi-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4 " crossorigin="anonymous "></script>
+
+</body>
+
+</html>

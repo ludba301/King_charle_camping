@@ -1,0 +1,289 @@
+.text {
+    color: yellowgreen;
+}
+
+
+
+
+
+#srchbtn:hover {
+    background-color: yellowgreen;
+}
+
+.nav-link {
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+#sec1 {
+    background-color: grey;
+}
+
+.col-md-6 {
+    padding: 20px;
+}
+
+.col-md-6 img {
+    height: 500px;
+}
+
+.lead {
+    padding: 200px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sec2 {
+    background-color: lightslategrey;
+}
+
+#sec2 .card {
+    text-align: center;
+    box-shadow: 5px 10px 10px 5px rgb(22, 22, 22);
+}
+
+#foot a {
+    padding: 9px;
+}
+
+
+/* camping equipments */
+
+.cah {
+    background-image: url(tents/pexels-виталий-адуцкевич-13363509.jpg);
+}
+
+#ca {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#secca1 {
+    background-color: lightslategray;
+}
+
+#secca2 {
+    background-color: gray;
+}
+
+#rowca1 .card {
+    text-align: center;
+    margin: 20px;
+}
+
+.pr1 {
+    width: 100px;
+    margin: 10px;
+    background-color: darkgray;
+}
+
+.pr1:hover {
+    background-color: dimgray;
+    color: white
+}
+
+#foot a {
+    color: yellowgreen;
+}
+
+
+/* camping equipments */
+
+
+/* furniture */
+
+.cah {
+    background-image: url(chairs/bacamp.jpg);
+}
+
+#fur {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+#secfur1 {
+    background-color: lightslategray;
+}
+
+#secfur2 {
+    background-color: gray;
+}
+
+#rowfur1 .card {
+    text-align: center;
+    margin: 20px;
+}
+
+.pr2 {
+    width: 100px;
+    margin: 10px;
+    background-color: darkgray;
+}
+
+.pr2:hover {
+    background-color: dimgray;
+    color: white
+}
+
+
+/* furniture */
+
+
+/* packages */
+
+.pac {
+    background-image: url(tents/pic14.jpg);
+}
+
+#pack {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.pac h1 {
+    color: white;
+    padding: 20px;
+}
+
+#secpa1 {
+    background-color: grey;
+}
+
+#secpa1 .container {
+    padding: 50px;
+}
+
+#secpa2 {
+    background-color: lightslategray;
+}
+
+#packin .card {
+    background-color: var(--bs-dark);
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    box-shadow: 5px 10px 10px 5px rgb(25, 25, 25);
+    margin: 50px;
+}
+
+
+/* packages */
+
+
+/* reviews */
+
+#secre1 {
+    background-color: lightslategray;
+}
+
+#secre2 {
+    background-color: grey;
+}
+
+#secre1 .container {
+    padding: 90px;
+}
+
+#secre1 ul {
+    display: flex;
+    list-style: none;
+    color: yellow;
+}
+
+#secre1 .card {
+    text-align: center;
+    max-height: 600px;
+}
+
+#butto {
+    background-color: lightslategray;
+}
+
+#ma2 .card {
+    box-shadow: 5px 10px 10px 5px rgb(25, 25, 25);
+}
+
+
+/* reviews */
+
+
+/* cart */
+
+#seccar1 {
+    padding: 20px;
+    background-color: lightslategrey;
+    color: white;
+}
+
+.bb {
+    color: yellowgreen;
+}
+
+tbody .btn {
+    background-color: yellow;
+}
+
+tbody .btn:hover {
+    background-color: lightslategray;
+    color: white;
+    box-shadow: 2px 4px 4px 2px rgb(25, 25, 25);
+}
+
+tbody input {
+    width: 50px;
+}
+
+
+/* cart */
+
+
+/* carousel*/
+
+
+#myCarousel {
+    height: 50rem;
+    background: black;
+    color: white;
+    position: relative;
+}
+
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+    height: 50rem;
+    opacity: 0.7;
+    position: relative;
+}
+
+
+.f1 {
+    background-image:url(tents/c5.jpg);
+}
+
+.f2 {
+    background-image: url(tents/c6.jpg);
+}
+
+.f3 {
+    background-image: url(tents/c7.jpg);
+}
+
+.h {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 60px;
+}
